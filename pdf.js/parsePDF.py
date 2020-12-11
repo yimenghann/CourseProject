@@ -2,6 +2,11 @@ import os
 import sys
 
 from PyPDF2 import PdfFileWriter, PdfFileReader
+"""
+usage: 
+"python parsePDF" will parse all pdfs under raw_slides
+"python parsePDF cs-425 cs-411" will parse all specified folders under raw_slides
+"""
 
 
 class ParsePDF:
